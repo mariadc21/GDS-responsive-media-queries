@@ -53,8 +53,16 @@ ul li{
         font-size: 16px;
     }
 }
-
-
+ @media screen and (max-width 1000px){
+    div{
+        background-color: green;
+    }
+    #blue {font-size 16px}
+ }
+ @media screen and (max-width 700px){
+    div{ background-color yellow}
+    #green {font-size 16px}
+ }
 
 
 
